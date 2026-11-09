@@ -8,11 +8,11 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="MovieFlix",
+      title="MovieFlix API",
       default_version='v1',
-      description="Provedor local de séries e filmes desenvolvida por João Victor no curso de Django Rest API",
+      description="Provedor local de séries e filmes desenvolvido por João Victor",
       terms_of_service="#",
-      contact=openapi.Contact(email="c3po@alura.com.br"),
+      contact=openapi.Contact(email="contato@movieflix.com"),
       license=openapi.License(name="BSD License"),
    ),
    public=True,
